@@ -1,0 +1,53 @@
+body {
+    font-family: 'Georgia', serif;
+    background-image: url('https://i.ytimg.com/vi/wFHn8GTsQDg/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #app {
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    box-sizing:border-box;
+  }
+
+  a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
